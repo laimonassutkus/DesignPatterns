@@ -3,17 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{A4B06272-D9DD-42FB-8046-6E2C9658E4D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{A4B06272-D9DD-42FB-8046-6E2C9658E4D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{FA1A2E06-BA96-4CED-9078-589FBE3D1312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{FA1A2E06-BA96-4CED-9078-589FBE3D1312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{15443018-121B-4591-BD6A-25FFEE23D53C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{15443018-121B-4591-BD6A-25FFEE23D53C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{9583A121-6EA5-4694-B61D-23E48DED1D1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{9583A121-6EA5-4694-B61D-23E48DED1D1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{31D6B29B-14D1-4FAA-B1F0-994617B8562F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{31D6B29B-14D1-4FAA-B1F0-994617B8562F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{D215400E-532D-451D-9BE7-A9319CD9C932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{D215400E-532D-451D-9BE7-A9319CD9C932}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{26B079CB-85E8-4CFB-B7BD-81181D26DBB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{76852AD1-2F05-4B40-91A0-6C8E1A3426A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{ADC60297-2FEC-4985-B226-EF046F97C945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{986BFED2-5F16-4830-877E-EE4459188B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{017048EC-EEE2-49AE-9143-E0EE0F4EF691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{F9E47E0A-2027-4741-9455-0FBC2B4F2E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{DD92E8FF-30FF-44F3-A6D9-B994541DC26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{4E9E314B-0D8D-48CC-B8CF-DEACC0A49120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +61,38 @@ Global
 		{D215400E-532D-451D-9BE7-A9319CD9C932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D215400E-532D-451D-9BE7-A9319CD9C932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D215400E-532D-451D-9BE7-A9319CD9C932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B079CB-85E8-4CFB-B7BD-81181D26DBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B079CB-85E8-4CFB-B7BD-81181D26DBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B079CB-85E8-4CFB-B7BD-81181D26DBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B079CB-85E8-4CFB-B7BD-81181D26DBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76852AD1-2F05-4B40-91A0-6C8E1A3426A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76852AD1-2F05-4B40-91A0-6C8E1A3426A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76852AD1-2F05-4B40-91A0-6C8E1A3426A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76852AD1-2F05-4B40-91A0-6C8E1A3426A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC60297-2FEC-4985-B226-EF046F97C945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC60297-2FEC-4985-B226-EF046F97C945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC60297-2FEC-4985-B226-EF046F97C945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC60297-2FEC-4985-B226-EF046F97C945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986BFED2-5F16-4830-877E-EE4459188B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986BFED2-5F16-4830-877E-EE4459188B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986BFED2-5F16-4830-877E-EE4459188B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986BFED2-5F16-4830-877E-EE4459188B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017048EC-EEE2-49AE-9143-E0EE0F4EF691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017048EC-EEE2-49AE-9143-E0EE0F4EF691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017048EC-EEE2-49AE-9143-E0EE0F4EF691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017048EC-EEE2-49AE-9143-E0EE0F4EF691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E47E0A-2027-4741-9455-0FBC2B4F2E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E47E0A-2027-4741-9455-0FBC2B4F2E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E47E0A-2027-4741-9455-0FBC2B4F2E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E47E0A-2027-4741-9455-0FBC2B4F2E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD92E8FF-30FF-44F3-A6D9-B994541DC26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD92E8FF-30FF-44F3-A6D9-B994541DC26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD92E8FF-30FF-44F3-A6D9-B994541DC26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD92E8FF-30FF-44F3-A6D9-B994541DC26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9E314B-0D8D-48CC-B8CF-DEACC0A49120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9E314B-0D8D-48CC-B8CF-DEACC0A49120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9E314B-0D8D-48CC-B8CF-DEACC0A49120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9E314B-0D8D-48CC-B8CF-DEACC0A49120}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
