@@ -6,7 +6,11 @@ namespace Factory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Animal animalWithLegs = AnimalFactory.MakeAnimal(true);
+            Animal animalWithoutLegs = AnimalFactory.MakeAnimal(false);
+
+            animalWithLegs.ShowLegs();
+            animalWithoutLegs.ShowLegs();
         }
     }
 }
