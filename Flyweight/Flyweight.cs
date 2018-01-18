@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace Flyweight
 {
@@ -11,7 +12,7 @@ namespace Flyweight
 
         public Flyweight()
         {
-
+            Thread.Sleep(1);
         }
     }
 }
