@@ -1,4 +1,5 @@
 ﻿using System;
+using Visitor.Products;
 
 namespace Visitor
 {
@@ -6,16 +7,16 @@ namespace Visitor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IVisitor taxVisitor = new TaxVisitor();
+            IVisitor reliefVisitor = new ReliefVisitor();
 
+            IVisitable apple = new Apple();
 
-            IVisitor visitor = new ConcreteVisitor();
+            Console.WriteLine($"Apple price before tax: {apple.GetPrice()}, " +
+                $"apple price after the tax: {apple.Accept(taxVisitor)}.");
 
-
-            Element1 element = new Element1();
-            element.Display();
-
-            visitor.Visit(element);
+            Console.WriteLine($"Apple price before relief: {apple.GetPrice()}, " +
+                $"apple price after the relief: {apple.Accept(reliefVisitor)}.");
         }
     }
 }

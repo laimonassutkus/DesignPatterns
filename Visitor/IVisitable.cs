@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Visitor
 {
-    class Element1 : AbstractElement
+    interface IVisitable : IProduct
     {
+        float Accept(IVisitor visitor);
     }
 }

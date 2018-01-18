@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Visitor
 {
-    class Element2 : AbstractElement
+    interface IProduct
     {
+        float GetPrice();
     }
 }

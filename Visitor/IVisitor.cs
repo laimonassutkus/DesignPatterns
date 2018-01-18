@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Visitor.Products;
 
 namespace Visitor
 {
     interface IVisitor
     {
-        void Visit(Element1 element);
-        void Visit(Element2 element);
+        float Visit(Apple apple);
+        float Visit(Banana banana);
     }
 }
