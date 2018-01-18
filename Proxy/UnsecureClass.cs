@@ -11,6 +11,11 @@ namespace Proxy
 
         internal string secret = "Secret";
 
+        public void DoStupidStuff()
+        {
+            Console.WriteLine(secret);
+        }
+
         public void ShowDate()
         {
             Console.WriteLine(date);

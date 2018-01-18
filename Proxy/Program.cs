@@ -8,7 +8,7 @@ namespace Proxy
         {
             Console.WriteLine("Hello World!");
 
-            ClassProxy proxy = new ClassProxy();
+            ISecureData proxy = new ClassProxy();
             proxy.ShowName();
         }
     }
